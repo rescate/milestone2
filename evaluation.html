@@ -1,0 +1,479 @@
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="stylesheet" href="pagestyle.css">
+    <title>Center For Applied Research in Information Technology </title>    
+</head>
+<body>
+  
+    <div class="container">
+        <div class="header"> 
+           <a href="https://ccse.kennesaw.edu/it/index.php" target="_blank"> <img src="ksulogo.png" class="center" > </a>
+           
+        <div class="inner-header"> 
+           <h1>Center For Applied Research in Information Technology</h1> 
+
+        </div>
+    
+        </div>
+        <div class="sidebar"> 
+            
+            <br>
+            <a href="index.html"> ABOUT</a></br>
+            <br><a href="StaffInformation.html"> STAFF</a></br>
+            <br><a href="ContactInformation.html"> CONTACT</a></br>
+            <br><a href="https://research.kennesaw.edu/roc/themes/computer-tech.php"target="_blank"> LATEST NEWS</a></br>
+            <br><a href="evaluation.html"> EVALUATION</a>
+            </br> 
+        </div>
+        <div class="content">     
+            
+            <div class="content"> 
+<article>
+<body>
+
+    <div class="content">
+    <div id="content">
+    
+    <article>
+    <p>
+    <h2>Summer Semester 2022 Internships</h2>
+    <h5>Student Assistant Positions</h5>
+    
+    The CARIT is a Research Center that provides high quality survey research, program evaluation, performance measurement, 
+    and experimental research using scientifically rigorous social science methods to better interact with local businesses.
+    The CARIT is a valuable resource for faculty in need of assistance for research projects, grants, and contracts. Hiring a Student Assistant now takes place in the Department of Career Planning and Development System. Student rely on career website for finding internships, 
+    part-time, and full-time jobs.
+    </p>
+    <p style="text-align:center;"><img src="2nditimage.jpeg" alt="job" width="250" height="150"> 
+        <img src="itimage.jpeg" alt="btn" width="250" height="150"> 
+    <p>
+    Hiring process will take place in the Career Center, hiring managers will continue to work with Human Resources to 
+    on board new student assistants, select start dates, and to ensure they will be paid. CARIT has four student assistant positions open, 
+    including 2 Graduate and 2 Undergraduate positions. In order to be considered for a position, 
+    a student has to complete four courses and meet the minimum average grade requirements. </p>
+    </p>
+    </article>
+    </div>
+    
+
+<h2>Do you qualify?</h2>
+
+<div class="center">
+<p>Please follow the instructions to complete the student profile and find out if you are eligible for either of the positions</br></br>
+<b>Instructions to follow: </b>
+<p>Step 1: Please select the Student Status from drop the down menu</P>
+<p>Step 2: Please select the position available from the drop down menu</P>
+<p>Step 3: Once you select the student status and position, you will be provided with the list of courses.
+</br>Please select the appropriate grade for each course from the drop down list</p>
+<p>Step 4: Click on "Calculate" to check if you are eligible to apply for the position</p>
+
+
+<article>
+
+<p><h5>Please select the information: </h5>
+<p><b>Student Status: </b>
+   <select name="select_status" id="status" onchange="Course()">
+   <option selected> Please Select </option>
+   <option> Undergraduate </option>
+   <option> Graduate </option>
+</select></p>
+
+
+<p><b>Position: </b>
+   <select name="select_position" id="position" onchange="displayCourse()">
+   <option selected>Please Select</option>
+   <option> Position 1 </option>
+   <option> Position 2 </option>
+</select> </p>
+
+
+<p><form id="option1"><b>Undergraduate Position 1</b></p>
+   Course 1 <input type="text" id="Course1" value="IT 3203 Introduction to Web Development" size="50"> 
+   <select id="position1course1Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>   
+   </select> <br>
+
+   Course 2 <input type="text" id="Course2" value="IT 3883 Advanced Application Development" size="50">  
+   <select id="position1course2Grade">   
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+
+   Course 3 <input type="text" id="Course3" value="IT 4203 Advanced Web Development" size="50">  
+   <select id="position1course3Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option> 
+   <option> Grade F </option> 
+   </select> <br>
+
+   Course 4 <input type="text" id="Course4" value="IT 4213 Mobile Web Development" size="50"> 
+   <select id="position1course4Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+</form></p>
+
+	<form id="option2"><b>Undergraduate Position 2</b></p>
+   Course 1 <input type="text" id="Course1"  value="IT 4843 - Ethical Hacking for Effective Defense" size="50">  
+   <select id="position2course1Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+
+   Course 2 <input type="text" id="Course2"  value="IT 4853 Computer Forensics" size="50"> 
+   <select id="position2course2Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+
+   Course 3 <input type="text" id="Course3"  value="IT 4883 Infrastructure Defense" size="50"> 
+   <select id="position2course3Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+  
+   Course 4 <input type="text" id="Course4"  value=" IT 4893 Internet of Things: Applications and Security" size="50"> 
+   <select id="position2course4Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option> 
+   <option> Grade F </option> 
+   </select> <br>
+</form></p>
+
+
+<p><form id="option3"><b>Graduate Position 1</b></p>
+   Course 1 <input type="text" id="Course1"  value= "IT 4723 IT Policy & Law" size="50">  
+   <select id="position3course1Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+
+   Course 2 <input type="text" id="Course2"  value= "IT 6833 Wireless Security" size="50"> 
+   <select id="position3course2Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+ 
+   Course 3 <input type="text" id="Course3"  value="IT 6863 Database Security & Auditing" size="50">  
+   <select id="position3course3Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option> 
+   <option> Grade F </option> 
+   </select> <br>
+  
+   Course 4 <input type="text" id="Course4"  value="IT 7833 IT Strategy, Policy, and Governance" size="50">   
+   <select id="position3course4Grade">  
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>    
+   </select> <br>
+</form> </p>
+
+
+<p><form id="option4"><b>Graduate Position 2</b></p>
+   Course 1 <input type="text" id="Course1"  value="IT 6823 Information Security Concepts & Administration" size ="50">  
+   <select id="position4course1Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option> 
+   <option> Grade F </option>   
+   </select> <br>
+   
+   Course 2 <input type="text" id="Course2"  value= "IT 6843 Ethical Hacking: Network Security and Penetration Testing" size="50"> 
+   <select id="position4course2Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option>
+   <option> Grade F </option>   
+   </select> <br>
+   
+   Course 3 <input type="text" id="Course3"  value=  "IT 6853 Computer Forensics" size="50">  
+   <select id="position4course3Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option> 
+   <option> Grade F </option>   
+   </select> <br>
+   
+   Course 4 <input type="text" id="Course4"  value="IT 6883 Infrastructure Defense" size="50">  
+   <select id="position4course4Grade"> 
+   <option> Grade A </option> 
+   <option> Grade B </option> 
+   <option> Grade C </option>
+   <option> Grade D </option> 
+   <option> Grade F </option> 
+   </select> <br>
+   
+</form> </p>
+</article>
+
+<script>
+	var option1 = document.getElementById('option1');
+		option1.style.display = "none";
+		
+	var option2 = document.getElementById('option2');
+		option2.style.display = "none";
+		
+	var option3 = document.getElementById('option3');		
+		option3.style.display = "none";
+		
+	var option4 = document.getElementById('option4');		
+		option4.style.display = "none";
+</script>
+
+<script type = "text/javascript">
+
+   function displayCourse(){
+   
+   var status = document.getElementById('status').value;
+   var position = document.getElementById('position').value;
+   
+ if ( status=='Undergraduate' && position=='Position 1' ) 
+	{
+        var option1 = document.getElementById('option1');
+		option1.style.display = "block";
+		
+		var option2 = document.getElementById('option2');
+		option2.style.display = "none";
+		
+		var option3 = document.getElementById('option3');		
+		option3.style.display = "none";
+		
+		var option4 = document.getElementById('option4');		
+		option4.style.display = "none";
+	}
+		
+     else if ( status=='Undergraduate' && position=='Position 2') 
+	 {
+        var option1 = document.getElementById('option1');
+		option1.style.display = "none";
+		
+		var option2 = document.getElementById('option2');
+		option2.style.display = "block";
+		
+		var option3 = document.getElementById('option3');		
+		option3.style.display = "none";
+		
+		var option4 = document.getElementById('option4');		
+		option4.style.display = "none";
+		
+	} 
+	
+	else if ( status=='Graduate' && position=='Position 1') 
+	
+	{
+        var option1 = document.getElementById('option1');
+		option1.style.display = "none";
+		
+		var option2 = document.getElementById('option2');
+		option2.style.display = "none";
+		
+		var option3 = document.getElementById('option3');		
+		option3.style.display = "block";
+		
+		var option4 = document.getElementById('option4');		
+		option4.style.display = "none";
+		
+	}
+	
+	else if ( status=='Graduate' && position=='Position 2')
+	{
+        var option1 = document.getElementById('option1');
+		option1.style.display = "none";
+		
+		var option2 = document.getElementById('option2');
+		option2.style.display = "none";
+		
+		var option3 = document.getElementById('option3');		
+		option3.style.display = "none";
+		
+		var option4 = document.getElementById('option4');		
+		option4.style.display = "block";		
+    }  	
+	}
+	  
+     function convertnumeric(grade) 
+    {
+		
+   	if     (grade == 'Grade A' || grade == 'a') 	return 4.0;	
+	else if(grade == 'Grade B' || grade == 'b') 	return 3.0;	
+	else if(grade == 'Grade C' || grade == 'c')  	return 3.0;	
+	else if(grade == 'Grade D' || grade == 'd') 	return 2.0;	
+	else	return 0;
+	}
+	
+ function Cal_Avg(){
+ 
+	var status = document.getElementById('status').value;
+	var position = document.getElementById('position').value;
+         
+	if ( status=='Undergraduate' && position=='Position 1' ) 
+	{
+	var course1grade = document.getElementById("position1course1Grade").value;
+	var position1 = convertnumeric(course1grade);
+	var course2grade = document.getElementById("position1course2Grade").value;
+	var position2 = convertnumeric(course2grade); 
+	 var course3grade = document.getElementById("position1course3Grade").value;
+	 var position3 = convertnumeric(course3grade);
+	 var course4grade = document.getElementById("position1course4Grade").value;
+	 var position4 = convertnumeric(course4grade);
+	 var average = (position1 + position2 + position3 + position4)/4;	
+	var message="<p>Your overall GPA is: "+average+"</p>"; 
+	document.getElementById("gpa").innerHTML= message;	 
+ 
+	if (average < 3 ) 
+	{
+	document.getElementById("result").innerHTML = 'Thank you for your interest, but you are not eligible to apply for this position.';	 
+	} 
+	else 
+	{	 
+	document.getElementById("result").innerHTML = '"Congratulations". You are eligible to apply for the position. Click link below to complete the application process. </br></br><a href="Form.php"><b>Application Form</b></a></br></br>More instructions will be available within the application itself.';
+	} 
+} 
+
+else if (status=='Undergraduate' && position=='Position 2') {
+
+	var course1grade = document.getElementById("position2course1Grade").value;
+	var position1 = convertnumeric(course1grade);
+	var course2grade = document.getElementById("position2course2Grade").value;
+	var position2 = convertnumeric(course2grade);
+	var course3grade = document.getElementById("position2course3Grade").value;
+	var position3 = convertnumeric(course3grade);
+	var course4grade = document.getElementById("position2course4Grade").value;
+	var position4 = convertnumeric(course4grade);
+	var average = (position1 + position2 + position3 + position4)/4;
+	var message="<p>Your overall GPA is: "+average+"</p>"; 
+	document.getElementById("gpa").innerHTML= message;	
+ 
+	if (average < 3 ) 
+	{
+	document.getElementById("result").innerHTML = 'Thank you for your interest, but you are not eligible to apply for this position.';	 
+	} 
+	else 
+	{	
+	document.getElementById("result").innerHTML = '"Congratulations". You are eligible to apply for the position. Click link below to complete the application process. </br></br><a href="Form.php"><b>Application Form</b></a></br></br>More instructions will be available within the application itself.';
+	} 
+} 
+
+	else if ( status=='Graduate' && position=='Position 1') 
+	{
+
+	var course1grade = document.getElementById("position3course1Grade").value;
+	var position1 = convertnumeric(course1grade);
+	var course2grade = document.getElementById("position3course2Grade").value;
+	var position2 = convertnumeric(course2grade);
+	var course3grade = document.getElementById("position3course3Grade").value;
+	var position3 = convertnumeric(course3grade);
+	var course4grade = document.getElementById("position3course4Grade").value;
+	var position4 = convertnumeric(course4grade);
+	var average = (position1 + position2 + position3 + position4)/4;
+	var message="<p>Your overall GPA is: "+average+"</p>"; 
+	document.getElementById("gpa").innerHTML= message;
+	
+	
+	if (average < 3.5 ) 
+	{
+	document.getElementById("result").innerHTML = 'Thank you for your interest, but you are not eligible to apply for this position.';	 
+	} 
+	else 
+	{
+	document.getElementById("result").innerHTML = '"Congratulations". You are eligible to apply for the position. Click link below to complete the application process. </br></br><a href="Form.php"><b>Application Form</b></a></br></br>More instructions will be available within the application itself.';
+	} 
+} 
+
+	else if ( status=='Graduate' && position=='Position 2') 
+	{
+
+	var course1grade = document.getElementById("position4course1Grade").value;
+	var position1 = convertnumeric(course1grade);
+	var course2grade = document.getElementById("position4course2Grade").value;
+	var position2 = convertnumeric(course2grade);
+	var course3grade = document.getElementById("position4course3Grade").value;
+	var position3 = convertnumeric(course3grade);
+	var course4grade = document.getElementById("position4course4Grade").value;
+	var position4 = convertnumeric(course4grade);
+	var average = (position1 + position2 + position3 + position4)/4;
+	var message="<p>Your overall GPA is: "+average+"</p>"; 
+	document.getElementById("gpa").innerHTML= message;
+
+	 
+if (average < 3.5 )
+ 
+	{
+	document.getElementById("result").innerHTML = 'Thank you for your interest, but you are not eligible to apply for this position.';	 
+	} 
+	else 
+	{
+	document.getElementById("result").innerHTML = '"Congratulations". You are eligible to apply for the position. Click link below to complete the application process. </br></br><a href="Form.php"><b>Application Form</b></a></br></br>More instructions will be available within the application itself.';
+	} 
+	} 
+}  
+                        
+</script>
+</head>
+
+<body>
+
+<article>
+<p><b>Please click: </b><input type="button" value="Calculate" onclick="Cal_Avg()" /></p></br>
+<p id="gpa"></p>
+<div id="result"></div>
+</br>
+</div>
+
+
+<div class="footer">
+    <p>
+        <b>Made by: Raul Escate</b> 
+         <li> Contact information: rescate@students.kennesaw.edu </li>
+         <li> All information in this website is for educational purposes only </li>
+         </p>
+     <a href="https://kennesaw.view.usg.edu/d2l/home/2510919"> This is a class project</a>
+
+
+
+</div>  
+
+
+</body>
+<html>
